@@ -52,7 +52,7 @@ nav h1{
   padding: 4rem;
 }
 .DScard{
-  width: 26rem;
+  width: 100%;
 }
 .poster img{
   height: auto;
@@ -64,6 +64,7 @@ nav h1{
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: space-between;
   padding-block: 1rem 2rem;
   background-color: var(--color-white);
   border-radius:0 0 .8rem .8rem ;
@@ -73,9 +74,11 @@ nav h1{
   font-size: 1.4rem;
   margin-bottom: 2.5rem;
   font-weight: 700;
+  min-height: 50px;
+  
 }
-.description .botton{
-  width: 18rem;
+.description .button{
+  width: min(18rem, 50%);
   height: 4rem;
   background-color: var(--cor-primaria);
   display: flex;
