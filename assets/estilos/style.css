@@ -90,3 +90,7 @@ nav h1{
   border-radius: .4rem;
   
 }
+.DSform-container{
+  padding-block: 4rem;
+  max-width: 48rem;
+}
