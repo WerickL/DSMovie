@@ -26,9 +26,34 @@
       <div class="container DSform-container">
         <div class="DSform-card">
           <div class="poster"><img src="https://www.themoviedb.org/t/p/w500_and_h282_face/gUNRlH66yNDH3NQblYMIwgZXJ2u.jpg" alt="poster do filme doutor estranho"></div>
-          <div class="description">
+
+          
+          <div class="DSform-description">
             <h3>Doutor Estranho no Multiverso da Loucura</h3>
-            <a class="button" href="index.html">Cancelar</a>
+            <form class="DSmovie-form">
+              <div class="form-group DSmovie-form-group">
+                <label for="email">Informe seu e-mail</label>
+                <input class="form-control" type="email" id="email">
+              </div>
+              <div class="form-group DSmovie-form-group">
+                <label for="avaliacao">Informe sua Avaliação</label>
+                <select class="form-control" name="avaliacao" id="avaliacao">
+                  <option value="" selected disabled></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+              <div class="btns">
+                <button class="button" type="submit">Salvar</button>
+                <a class="button" href="index.html">Cancelar</a>
+              </div>
+            </form>
+
+
+           
           </div>
         </div>
       </div>
