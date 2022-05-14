@@ -20,7 +20,7 @@ body, html{
 h1, h2, h3, h4, h5, h6{
   margin-bottom: 0;
 }
-/*Essas propriedades não pegaram no meu a, somente quando especifiquei algum dos pais, header a*/
+
 a, a:hover{
   color:unset;
   text-decoration: none;
@@ -49,7 +49,7 @@ nav h1{
   align-items: center;
 }
 #DScard-list{
-  padding: 4rem;
+  padding-inline: 4rem;
 }
 .DScard{
   width: 100%;
@@ -142,4 +142,35 @@ label{
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+}
+.pass-page-container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.pass-page-box{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.pass-page-box p{
+  margin: 0;
+  font-size: 1.2rem;
+  color: #4D41C0;;
+}
+.pass-page-box button{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #4D41C0;
+    border-radius: .5rem;
+    background-color: white;
+}
+button.disabled{
+  border: 1px solid #C2C2C2;
+}
+.pass-page-box button:not(button.disabled) svg  path{
+  fill: #4D41C0;
 }
